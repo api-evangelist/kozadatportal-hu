@@ -1,0 +1,57 @@
+aid: kozadatportal-hu
+name: Kozadat Hungary Open Data
+description: >-
+  Kozadat Hungary Open Data is a national government open-data portal for Hungary running CKAN.
+  It exposes the CKAN catalog API over approximately 2,283 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/kozadatportal-hu/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - National Government
+  - Hungary
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: kozadatportal-hu:catalog
+    name: Kozadat Hungary Open Data CKAN Action API
+    description: >-
+      CKAN API for Kozadat Hungary Open Data, ~2,283 datasets.
+    humanURL: https://kozadatportal.hu
+    baseURL: https://kozadatportal.hu/api/3/action
+    tags:
+      - CKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://kozadatportal.hu
+      - type: x-api-endpoint
+        url: https://kozadatportal.hu/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.7'
+common:
+  - type: Website
+    url: https://kozadatportal.hu
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/kozadatportal-hu-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/kozadatportal-hu-rate-limits.yml
+  - type: FinOps
+    url: finops/kozadatportal-hu-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
