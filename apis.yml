@@ -4,7 +4,18 @@ description: >-
   Kozadat Hungary Open Data is a national government open-data portal for Hungary running CKAN.
   It exposes the CKAN catalog API over approximately 2,283 datasets.
 kind: government
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kozadatportal-hu.png
 url: https://raw.githubusercontent.com/api-evangelist/kozadatportal-hu/refs/heads/main/apis.yml
 tags:
   - Open Data
